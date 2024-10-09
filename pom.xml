@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>com.bank.core</groupId>
 			<artifactId>core</artifactId>
-			<version>0.0.1</version> <!-- Use release version -->
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 
@@ -109,26 +109,8 @@
 				<enabled>true</enabled>
 			</releases>
 			<snapshots>
-				<enabled>false</enabled>
+				<enabled>true</enabled>
 			</snapshots>
 		</repository>
 	</repositories>
-
-	<!-- Optional: Additional Repositories -->
-	<!-- If your core library is in a remote repository, add it here -->
-	<!--
-    <repositories>
-        <repository>
-            <id>internal.repo</id>
-            <name>Internal Repository</name>
-            <url>http://your.repository.url/repo</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    -->
 </project>
